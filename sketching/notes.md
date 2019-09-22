@@ -13,7 +13,7 @@ I still use email. Want to know more?
 
 ---
 
-I believe 
+I love making things. In the past, that 
 
 
 ---
@@ -27,6 +27,8 @@ Over time, I realised that however much I liked making things myself, I got even
 
 
 ----
+
+helping others lead
 
 
 
@@ -77,4 +79,31 @@ As we grew Perceptor, I got increasingly interested in the people behind work. S
 Earlier in my career, I used design and code to make things happen. While both are still passions of mine, currently I am focused on creating the best environment for others to make things happen. 
 
 flow
+
+
+I believe that when it comes to software, engineering and product go hand in hand. I'm motivated by bringing people and technology together to create compelling user experiences. I have a diverse background in design, business and engineering, and am obsessed with organisational developement and creating a working environment where people thrive. 
+
+---
+
+Hi, I'm Bastiaan. I'm into baking, climbing, and helping teams build beautiful software with passion and compassion -- currently as CTO at WeTransfer. I still use email. Care to know more?
+
+From a background in design and software engineering to being a founder, my professional experience is as broad as product development is.
+
+
+
+
+I care about people, coaching, communication, organisational design, and the evolution of work
+
+I have deep technical and design, business knowledge
+
+I've been climbing for 20 years, and playing guitar for 3 months. Poetry and philosophy. Bake my own bread. 
+
+
+
+
+///
+
+INSPIRATION
+
+Georg is the co-Founder and CEO of FiftyThree, which started with the belief that people are at their best when they create. Our mission is to put the essential tools for creation within arm's reach. FiftyThree are the makers of Paper (Apple's 2012 iPad App of the Year), and the widely-acclaimed Pencil, the most natural and expressive tool for getting ideas on Paper. In his role Georg connects the dots between engineering, design and business. Before starting FiftyThree, he co-founded the Pioneer Studios, a design venture fund, where he led the incubation of Microsoft Courier. He shipped graphic tools in PowerPoint, Word, Excel, and started a photo frame business with Samsung. While at Microsoft Research he published seminal work on computational photography. He learned his best lessons from teaching, modern dance, and preserving a historic site in Germany. He holds a B.S. from Columbia in Computer Engineering and Economics, and a M.S. in Electrical Engineering with a concentration in Product Design from Stanford.
 
