@@ -87,8 +87,15 @@ I believe that when it comes to software, engineering and product go hand in han
 
 Hi, I'm Bastiaan. I'm into baking, climbing, and helping teams build beautiful software with passion and compassion -- currently as CTO at WeTransfer. I still use email. Care to know more?
 
-From a background in design and software engineering to being a founder, my professional experience is as broad as product development is.
+> below the fold
 
+From a background in product design and software engineering to being a founder and leader of teams, my professional experience spans the full breadth of product development. 
+
+I hold a BA in Animation from the Willem de Kooning Academy and a MSc in Media Technology from Leiden University. 
+
+After graduating, I co-founded Perceptor - a design studio where we integrated strategy, design and code to create compelling experiences. Besides work for clients like Wacom, Apple, Shell and World Press Photo, we did a lot of self-initiated projects. I am most proud of Perloo, an excruciatingly hard iPhone puzzle game we created in 2014 that achieved over 1M downloads in its first week. The old Perceptor website is still available and a continuing source of personal nostalgia.
+
+In 2015 I left Perceptor to join WeTransfer, and I'm still there. I started out as VP Engineering leading a small team of engineerings through the chaos of scaling a start-up, ending up as CTO. I then identified a huge opportunity in Product Management, which was a function we did not have in the company. I was tasked with establishing Product at WeTransfer and took on the CPO role in addition to my CTO duties. After almost 2 years, I went back to focussing solely on technology and I am currently CTO. In the mean time we acquired Paper and Paste from FiftyThree Inc. and raised a Series B round. 
 
 
 
