@@ -13,6 +13,9 @@ TODO
     https://nalden.net
     https://ashfurrow.com
     https://www.123rf.com/photo_96959915_old-marbled-paper-texture-background.html
+    anneke.com
+    https://www.productculture.org/about
+    
 - type
     https://fonts.google.com/specimen/Merriweather?selection.family=Merriweather
     https://fonts.google.com/specimen/Merriweather+Sans
