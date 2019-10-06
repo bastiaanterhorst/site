@@ -1,0 +1,20 @@
+<div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="{{ .Site.BaseURL }}"><img alt="Logo" src="/images/logo.svg" /></a>
+    </div>
+    <div id="main-menu" class="main-menu">
+      <ul>
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+        <li class="menu-item-{{ .Name | lower }}{{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}">
+          <a href="{{ .URL }}">
+            <span>{{ .Name }}</span>
+          </a>
+        </li>
+        {{end}}
+      </ul>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,12 @@
+name = "bastiaan.cc"
+license = ""
+licenselink = ""
+description = ""
+homepage = ""
+tags = []
+features = []
+min_version = 0.51
+
+[author]
+  name = "Bastiaan Terhorst"
+  homepage = "https://www.bastiaan.cc"
