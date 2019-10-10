@@ -4,7 +4,11 @@
 2. Run in dev mode: ```hugo server```
 
 
+
 TODO
+
+- make the sizings flex?
+
 
 - publish to gh pages
     - https://help.github.com/en/articles/using-a-custom-domain-with-github-pages
@@ -16,6 +20,7 @@ TODO
     https://www.123rf.com/photo_96959915_old-marbled-paper-texture-background.html
     anneke.com
     https://www.productculture.org/about
+    https://web.archive.org/web/20021210080822/http://textism.com:80/about/
     
 - type
     https://fonts.google.com/specimen/Merriweather?selection.family=Merriweather

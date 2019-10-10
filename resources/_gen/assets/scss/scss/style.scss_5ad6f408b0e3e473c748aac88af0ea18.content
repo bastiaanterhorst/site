@@ -7734,16 +7734,13 @@ body {
   font-family: "Merriweather Sans", sans-serif, -apple-system;
   font-size: 1rem;
   line-height: 1.4;
-  color: #212529; }
-
-.marbled {
-  background: url("/images/marbling.jpg");
-  -ms-flex: 0 0 60px;
-  flex: 0 0 60px;
-  margin-right: 50px; }
-
-.page-home .marbled {
-  -ms-flex: 0 0 431px;
-  flex: 0 0 431px; }
+  color: #212529;
+  background: url("/images/marbling.jpg") no-repeat;
+  background-size: 430px;
+  background-position-x: -370px;
+  padding-left: 110px; }
+  body.page-home {
+    background-position-x: 0;
+    padding-left: 480px; }
 
 /*# sourceMappingURL=style.css.map */

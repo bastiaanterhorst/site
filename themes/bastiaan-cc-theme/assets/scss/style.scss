@@ -37,41 +37,31 @@
 // Pages
 @import 'pages/home';
 
+// The marbling on the left hand side
+$marbling-width-open:   430px;
+$marbling-width-closed: 60px;
+$marbling-pad: 50px;
+
 // Global
 body {
   font-family: $font-family-base;
   font-size: 1rem;
   line-height: 1.4;
   color: $black;
-}
 
-// The marbling on the left hand side
-$marbling-width-open:   431px;
-$marbling-width-closed: 60px;
-.marbled {
-  background: url('/images/marbling.jpg');
-  -ms-flex: 0 0 $marbling-width-closed;
-  flex: 0 0 $marbling-width-closed;
-  margin-right: 50px;
-}
+  // background marbling
+  background: url('/images/marbling.jpg') no-repeat;
+  background-size: $marbling-width-open;
+  background-position-x: ($marbling-width-open - $marbling-width-closed) * -1;
+  padding-left: $marbling-width-closed + $marbling-pad;
 
-// todo: collapse the wide sidebar if the window is too narrow
-// @media (max-width: 690px) {
-//   .my-sidebar {
-//     display: none; 
-//   } 
-// }
-
-.page-home .marbled {
-  -ms-flex: 0 0 $marbling-width-open;
-  flex: 0 0 $marbling-width-open;
+  &.page-home {
+    background-position-x: 0;
+    padding-left: $marbling-width-open + $marbling-pad;
+  }
 }
 
 
-// .container {
-//   padding-left: $grid-gutter-width;
-//   padding-right: $grid-gutter-width;
-// }
 
 // Display breakpoints for DEV
 // body:after {
