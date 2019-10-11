@@ -7,6 +7,8 @@
 
 TODO
 - mobile view is crappy
+- smaller type on mobile
+- links look like crap
 - auto deploy with a github workflow: https://github.com/nathany/hugo-deploy
 
 
