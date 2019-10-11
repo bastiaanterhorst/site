@@ -7,7 +7,8 @@
 
 TODO
 
-- make the sizings flex?
+- auto deploy with a github workflow: https://github.com/nathany/hugo-deploy
+
 
 
 - publish to gh pages

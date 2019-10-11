@@ -13,26 +13,22 @@ $container-max-widths: (
   xl: 1140px,
 );
 
-$grid-gutter-width: 20px;
-
 $primary: #1de9b6;
 $secondary: #ffca28;
 $black: #212529;
 
 // Links
-$link-color: $primary;
+$link-color: $black;
 $link-decoration: none;
 $link-hover-color: lighten($primary, 20%);
 $link-hover-decoration: underline;
 
 // Fonts
-$font-weight-lighter:         300 !default;
-$font-weight-light:           300 !default;
-$font-weight-normal:          300 !default;
-$font-weight-bold:            800 !default;
-$font-weight-bolder:          800 !default;
-
-$font-weight-base:            $font-weight-normal !default;
+$font-weight-lighter:         300;
+$font-weight-light:           300;
+$font-weight-normal:          300;
+$font-weight-bold:            800;
+$font-weight-bolder:          800;
 
 $font-size-base: 1rem; // Assumes the browser default, typically `16px`
 $font-family-base: 'Merriweather Sans', sans-serif, -apple-system;
@@ -40,34 +36,12 @@ $font-family-serif: $font-family-base;
 $font-family-mono: 'Roboto Mono', monospace;
 $line-height-base: 1.4;
 
-// Headings & Paragraph
-$paragraph-color: #333;
+$font-weight-base:            $font-weight-normal;
+$headings-font-weight:        $font-weight-normal;
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-weight: $headings-font-weight;
+}
 
-$spacer: 1rem;
-$spacers: ();
-$spacers: map-merge(
-  (
-    0: 0,
-    1: 10px,
-    2: 20px,
-    3: 30px,
-    4: 40px,
-    5: 50px,
-    6: 60px,
-    7: 70px,
-    8: 80px,
-    9: 90px,
-    10: 100px,
-    11: 110px,
-    12: 120px,
-    13: 130px,
-    14: 140px,
-    15: 150px,
-    16: 160px,
-    17: 170px,
-    18: 180px,
-    19: 190px,
-    20: 200px,
-  ),
-  $spacers
-);
+// Headings & Paragraph
+$paragraph-color: $black;

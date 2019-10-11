@@ -24,11 +24,18 @@
 <body class='page {{ block "body_classes" . }}{{ end }}'>
 
   <div class="wrapper">
+      <div class="main-row">
+        <div class="side-col"></div>
+        <div class="main-col">
+            {{ block "main" . }}
+            {{ end }}
+        </div>
+    </div>
+
+
     {{ partial "header.html" . }}
 
-    {{ block "main" . }}
-    {{ end }}
-
+    
   </div>
 
   {{ $scripts := resources.Get "js/scripts.js" }}
@@ -41,8 +48,6 @@
   {{ else }}
   <script type="text/javascript" src="{{ ($scripts | minify | fingerprint).RelPermalink }}"></script>
   {{ end }}
-
-  {{ partial "google-analytics.html" . }}
 
 </body>
 
