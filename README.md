@@ -6,7 +6,7 @@
 
 
 TODO
-
+- mobile view is crappy
 - auto deploy with a github workflow: https://github.com/nathany/hugo-deploy
 
 
