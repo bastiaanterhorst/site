@@ -1,8 +1,23 @@
 .page-home .main-col {
-  padding-top: 60px;
+  padding-top: 30px;
+}
+
+@include media-breakpoint-up(sm) {
+  .page-home .main-col {
+    padding-top: 60px;
+  }
 }
 
 // on the homepage, and on larger screens, scale up the sidebar
+
+@include media-breakpoint-up(md) {
+  .page-home .side-col {
+    flex: 0 0 20%;
+    max-width: 20%;
+    max-width: 300px;
+  }
+}
+
 @include media-breakpoint-up(lg) {
   .page-home .side-col {
     flex: 0 0 33.33333333%;

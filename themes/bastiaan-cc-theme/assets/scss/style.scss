@@ -1,6 +1,14 @@
 // Font
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,300i,800,800i&display=swap');
 
+// Colors
+$black: #212529;
+$cls_a: #107E9E; // azure blue
+$cls_b: #DF507E; // red pink
+
+$primary: $cls_a;
+$secondary:$cls_b;
+
 // Bootstrap
 @import 'bootstrap/functions';
 @import 'bootstrap-variables';
@@ -44,11 +52,23 @@ html, body {
 // Global
 body {
   font-family: $font-family-base;
-  font-size: 1rem;
+  font-size: 0.55rem;
   line-height: 1.4;
   color: $black;
 }
 
+// Type overrides
+a {
+  border-bottom: 1px solid $black;
+
+  &:hover {
+    border-color: $primary;
+    color: $primary;
+  }
+}
+
+
+// Main column structure
 .main-row {
   @extend .row;
   @extend .h-100;
@@ -56,8 +76,8 @@ body {
 }
 
 .side-col {
-  flex: 0 0 60px;
-  max-width: 60px;
+  flex: 0 0 30px;
+  max-width: 30px;
 
   background: url('/images/marbling-gr.jpg') no-repeat;
   height: 100%;
@@ -68,8 +88,24 @@ body {
 
 .main-col {
   @extend .col;
-  padding: 30px 60px;
+  padding: 15px 30px;
   max-width: 800px;
+}
+
+@include media-breakpoint-up(sm) {
+  body {
+    font-size: 1rem;
+  }
+
+  .side-col {
+    flex: 0 0 60px;
+    max-width: 60px;
+  }
+
+  .main-col {
+    padding: 30px 60px;
+    max-width: 800px;
+  }
 }
 
 // Display breakpoints for DEV

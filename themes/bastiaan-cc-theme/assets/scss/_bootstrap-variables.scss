@@ -13,15 +13,11 @@ $container-max-widths: (
   xl: 1140px,
 );
 
-$primary: #1de9b6;
-$secondary: #ffca28;
-$black: #212529;
-
 // Links
 $link-color: $black;
 $link-decoration: none;
-$link-hover-color: lighten($primary, 20%);
-$link-hover-decoration: underline;
+$link-hover-color: $black;
+$link-hover-decoration: none;
 
 // Fonts
 $font-weight-lighter:         300;
