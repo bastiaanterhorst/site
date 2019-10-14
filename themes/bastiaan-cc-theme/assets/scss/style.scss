@@ -23,27 +23,11 @@ $secondary:$cls_b;
 @import 'libraries/pygments/github';
 
 // Components
-@import 'components/reset';
-@import 'components/type';
 @import 'components/page';
-@import 'components/header';
-@import 'components/footer';
-@import 'components/sub-footer';
-@import 'components/logo';
-@import 'components/main-menu';
-@import 'components/main-menu-mobile';
-@import 'components/docs-menu';
-@import 'components/hamburger';
-@import 'components/buttons';
-@import 'components/title';
-@import 'components/content';
-@import 'components/strip';
-@import 'components/whitebox';
-@import 'components/overview';
-@import 'components/anchor';
 
 // Pages
 @import 'pages/home';
+@import 'pages/article';
 
 html, body {
   height: 100%;
@@ -52,21 +36,10 @@ html, body {
 // Global
 body {
   font-family: $font-family-base;
-  font-size: 0.55rem;
-  line-height: 1.4;
+  font-size: $font-size-base*0.55;
+  line-height: $line-height-base;
   color: $black;
 }
-
-// Type overrides
-a {
-  border-bottom: 1px solid $black;
-
-  &:hover {
-    border-color: $primary;
-    color: $primary;
-  }
-}
-
 
 // Main column structure
 .main-row {
@@ -94,7 +67,7 @@ a {
 
 @include media-breakpoint-up(sm) {
   body {
-    font-size: 1rem;
+    font-size: $font-size-base;
   }
 
   .side-col {

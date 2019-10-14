@@ -1,12 +1,13 @@
 {{ define "header_css" }}{{ end }}
-{{ define "body_classes" }}page-default-single{{ end }}
+{{ define "body_classes" }}page-article{{ end }}
 {{ define "header_classes" }}{{ end }}
 
 {{ define "main" }}
-tis een single
-<h1 class="title">{{.Title}}</h1>
-<div class="content {{if .Site.Params.enable_anchor_link}}{{ "anchor-link-enabled" }}{{ end }}">
+
+<p class="mb-0"><a href="/">Go back</a></p>
+
+<div class="content">
   {{.Content}}
 </div>
-</div>
+
 {{ end }}

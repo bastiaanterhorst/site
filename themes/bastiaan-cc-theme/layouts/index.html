@@ -3,65 +3,8 @@
 {{ define "body_classes" }}page-home{{ end }}
 {{ define "header_classes" }}{{ end }}
 
-{{ define "meta_tags" }}
-<meta name="description" content="{{ .Site.Params.homepage_meta_tags.meta_description }}" />
-<meta property="og:title" content="{{ .Site.Params.homepage_meta_tags.meta_og_title }}" />
-<meta property="og:type" content="{{ .Site.Params.homepage_meta_tags.meta_og_type }}" />
-<meta property="og:url" content="{{ .Site.Params.homepage_meta_tags.meta_og_url }}" />
-<meta property="og:image" content="{{ .Site.Params.homepage_meta_tags.meta_og_image }}" />
-<meta property="og:description" content="{{ .Site.Params.homepage_meta_tags.meta_og_description }}" />
-<meta name="twitter:card" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_card }}" />
-<meta name="twitter:site" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_site }}" />
-<meta name="twitter:creator" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_creator }}" />
-{{ end }}
-
 {{ define "main" }}
-
-{{ .Content }}
-
-
-
-
-<!-- <div class="container-fluid">
-  <div class="row">
-    <div class="col intro">
-      {{ .Content }}
-    </div>
-  </div>
-</div> -->
-
-
-<!-- <div class="strip">
-  <div class="container pt-4 pb-16">
-    <div class="row">
-      <div class="col-12">
-        <div class="content">
-          {{ .Content }}
-
-          
-          <div class="sidebar">
-
-            {{$currentNode := .}}
-            <div class="docs-menu">
-              <h4>{{ .Section | humanize }}</h4>
-              <ul>
-                {{ range (where .Site.RegularPages "Section" "lab") sort .Site.RegularPages ".Weight" }}
-                <li class="{{ if eq .File.UniqueID $currentNode.File.UniqueID }}active {{ end }}">
-                  <a href="{{ .Permalink }}">{{ .Title }}</a>
-                </li>
-                {{ end }}
-              </ul>
-            </div>
-
-
-          </div>
-          
-        </div>
-      </div>
-    </div>
-  </div> 
-</div>-->
-
+  {{ .Content }}
 {{ end }}
 
 {{ define "footer_js" }}
