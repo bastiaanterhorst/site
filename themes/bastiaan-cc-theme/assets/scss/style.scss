@@ -3,7 +3,7 @@
 
 // Colors
 $black: #212529;
-$cls_a: #107E9E; // azure blue
+$cls_a: #0189B1; // azure blue
 $cls_b: #DF507E; // red pink
 
 $primary: $cls_a;
@@ -52,12 +52,33 @@ body {
   flex: 0 0 30px;
   max-width: 30px;
 
-  background: url('/images/marbling-gr.jpg') no-repeat;
+  background: url('/images/marbling.jpg') no-repeat;
   height: 100%;
   background-size: contain;
   background-repeat: repeat;
   background-attachment: fixed;
 }
+
+// animate background transitions
+body, .side-col {
+  transition-duration: 2s;
+  transition-property: background-color, filter;
+  transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  
+}
+
+body {
+  background: #EDFEFF;
+}
+
+html.scrolled body {
+  background: none;
+
+  & .side-col {
+    filter: contrast(1.2) grayscale(1);
+  }
+}
+
 
 .main-col {
   @extend .col;

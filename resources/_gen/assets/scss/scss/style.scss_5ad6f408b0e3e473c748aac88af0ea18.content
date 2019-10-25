@@ -284,12 +284,12 @@ template {
   vertical-align: text-top !important; }
 
 .bg-primary {
-  background-color: #107E9E !important; }
+  background-color: #0189B1 !important; }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #0b5970 !important; }
+  background-color: #01627e !important; }
 
 .bg-secondary {
   background-color: #DF507E !important; }
@@ -384,7 +384,7 @@ button.bg-dark:focus {
   border-left: 0 !important; }
 
 .border-primary {
-  border-color: #107E9E !important; }
+  border-color: #0189B1 !important; }
 
 .border-secondary {
   border-color: #DF507E !important; }
@@ -2610,10 +2610,10 @@ button.bg-dark:focus {
   color: #fff !important; }
 
 .text-primary {
-  color: #107E9E !important; }
+  color: #0189B1 !important; }
 
 a.text-primary:hover, a.text-primary:focus {
-  color: #094759 !important; }
+  color: #014e65 !important; }
 
 .text-secondary {
   color: #DF507E !important; }
@@ -3323,19 +3323,19 @@ a.text-dark:hover, a.text-dark:focus {
 .table-primary,
 .table-primary > th,
 .table-primary > td {
-  background-color: #bcdbe4; }
+  background-color: #b8dee9; }
 
 .table-primary th,
 .table-primary td,
 .table-primary thead th,
 .table-primary tbody + tbody {
-  border-color: #83bccd; }
+  border-color: #7bc2d6; }
 
 .table-hover .table-primary:hover {
-  background-color: #aad1dd; }
+  background-color: #a5d5e3; }
   .table-hover .table-primary:hover > td,
   .table-hover .table-primary:hover > th {
-    background-color: #aad1dd; }
+    background-color: #a5d5e3; }
 
 .table-secondary,
 .table-secondary > th,
@@ -3822,8 +3822,8 @@ p {
 a {
   border-bottom: 1px solid #212529; }
   a:hover {
-    border-color: #107E9E;
-    color: #107E9E; }
+    border-color: #0189B1;
+    color: #0189B1; }
 
 .page-home .main-col {
   padding-top: 30px; }
@@ -3865,11 +3865,24 @@ body {
 .side-col {
   flex: 0 0 30px;
   max-width: 30px;
-  background: url("/images/marbling-gr.jpg") no-repeat;
+  background: url("/images/marbling.jpg") no-repeat;
   height: 100%;
   background-size: contain;
   background-repeat: repeat;
   background-attachment: fixed; }
+
+body, .side-col {
+  transition-duration: 2s;
+  transition-property: background-color, filter;
+  transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95); }
+
+body {
+  background: #EDFEFF; }
+
+html.scrolled body {
+  background: none; }
+  html.scrolled body .side-col {
+    filter: contrast(1.2) grayscale(1); }
 
 .main-col {
   padding: 15px 30px;

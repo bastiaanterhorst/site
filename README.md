@@ -9,6 +9,9 @@ TODO
 - mobile view is crappy
 - smaller type on mobile
 - links look like crap
+- make an article work
+- list articles on the homepage
+- trickery with color fading on scroll
 - auto deploy with a github workflow: https://github.com/nathany/hugo-deploy
 
 
