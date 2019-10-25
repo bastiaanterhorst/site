@@ -15,7 +15,7 @@ While I love technology and the magical feeling of _making_ something, my true p
 
 Look at this: https://gohugo.io/content-management/image-processing/
 
-![Speaking at the 2018 AWS Benelux Summit Keynote](aws-summit-2.jpeg)
+[//]: # (![Speaking at the 2018 AWS Benelux Summit Keynote](aws-summit-2.jpeg))
 
 I hold a Bachelor of Design in Animation from the Willem de Kooning Academy and a Master of Science in Media Technology from Leiden University. Between my graduation and joining WeTransfer, I co-founded [Perceptor](http://perceptor.nl/) - a design studio where we integrated strategy, design and code to create compelling experiences. Besides work for clients like Wacom, Apple, Shell and World Press Photo, we did a lot of self-initiated projects. I am most proud of [Perloo](https://www.engadget.com/2014/02/24/perloo-is-a-free-physics-based-puzzler-that-is-clever-and-engagi), an excruciatingly hard iPhone puzzle game we created in 2014 that achieved over 1M downloads in its first week. The old Perceptor website is still available and a continuing source of personal nostalgia. After 7 years I needed a change and we closed Perceptor's doors in 2015.
 

@@ -10,9 +10,15 @@
 // Type overrides
 
 p {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   line-height: 1.75;
   font-size: 1.1em;
+}
+
+@include media-breakpoint-up(sm) {
+  p {
+    margin-bottom: 2rem;
+  }
 }
 
 

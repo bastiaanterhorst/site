@@ -2,6 +2,31 @@
     margin-bottom: 2rem;
 }
 
+.back {
+    margin-bottom: 0;
+    margin-top: -0.5rem;
+}
+
 .content {
-    padding-top: 120px;
+    padding-top: 2rem;
+}
+
+@include media-breakpoint-up(md) {
+    .back {
+        margin-top: -2rem;
+    }
+
+    .content {
+        padding-top: 5rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .back {
+        margin-top: -1rem;
+    }
+
+    .content {
+        padding-top: 9rem;
+    }
 }
