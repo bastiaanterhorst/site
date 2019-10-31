@@ -60,11 +60,10 @@ body {
 }
 
 // animate background transitions
-body, .side-col {
-  transition-duration: 2s;
-  transition-property: background-color, filter;
+body.enable-transitions .side-col {
+  transition-duration: 1s;
+  transition-property: background-color, filter, opacity;
   transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
-  
 }
 
 body {
@@ -76,12 +75,13 @@ html.scrolled body {
 
   & .side-col {
     filter: contrast(1.2) grayscale(1);
+    opacity: 0.25;
   }
 }
 
 .main-col {
   @extend .col;
-  padding: 15px 30px;
+  padding: 30px 30px 15px 30px;
   max-width: 800px;
 }
 
@@ -96,28 +96,47 @@ html.scrolled body {
   }
 
   .main-col {
-    padding: 30px 60px;
+    padding: 60px 60px 30px 60px;
     max-width: 800px;
   }
 }
 
-// Display breakpoints for DEV
-body:after {
-  color: #000000;
-  font-size: 12px;
-  padding: 5px;
-  font-weight: bold;
-  right: 10px;
-  position: fixed;
-  text-align: center;
-  text-transform: uppercase;
-  bottom: 10px;
-  width: 200px;
-  z-index: 9999;
-  border: solid 1px #000000;
-  @each $name, $value in $grid-breakpoints {
-    @include media-breakpoint-up($name) {
-      content: "#{$name} - min-width: #{$value}";
-    }
+// on the homepage, and on larger screens, scale up the sidebar
+
+@include media-breakpoint-up(md) {
+  .page .side-col {
+    flex: 0 0 20%;
+    max-width: 20%;
+    max-width: 300px;
   }
 }
+
+@include media-breakpoint-up(lg) {
+  .page .side-col {
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+    max-width: 300px;
+  }
+}
+
+
+// // Display breakpoints for DEV
+// body:after {
+//   color: #000000;
+//   font-size: 12px;
+//   padding: 5px;
+//   font-weight: bold;
+//   right: 10px;
+//   position: fixed;
+//   text-align: center;
+//   text-transform: uppercase;
+//   bottom: 10px;
+//   width: 200px;
+//   z-index: 9999;
+//   border: solid 1px #000000;
+//   @each $name, $value in $grid-breakpoints {
+//     @include media-breakpoint-up($name) {
+//       content: "#{$name} - min-width: #{$value}";
+//     }
+//   }
+// }

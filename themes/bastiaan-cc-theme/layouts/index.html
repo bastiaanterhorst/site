@@ -1,10 +1,26 @@
 {{ define "title" }}{{ .Site.Title }}{{ end}}
 {{ define "header_css" }}{{ end }}
-{{ define "body_classes" }}page-home{{ end }}
+{{ define "body_classes" }}{{ end }}
 {{ define "header_classes" }}{{ end }}
 
 {{ define "main" }}
   {{ .Content }}
+
+  {{ with .Site.GetPage "/lab" }}
+    {{ if gt (len .Pages) 0 }}
+      <div class="lab-list">
+        <p>From the lab</p>
+        <ul>
+          {{ range .Pages }}
+            <li>
+              <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+            </li>
+          {{end}}
+        </ul>
+      </div>
+    {{ end }}
+  {{ end }}
+
 {{ end }}
 
 {{ define "footer_js" }}

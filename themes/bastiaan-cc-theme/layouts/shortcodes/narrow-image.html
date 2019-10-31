@@ -1,0 +1,14 @@
+{{ $original := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
+{{ $imageWidth := .Get 1 | int }}
+{{ $scaleFactor := 2 }}
+
+{{ $image := mul $imageWidth $scaleFactor | int |  printf "%dx" | $original.Resize }}
+
+<figure class="figure">
+	<img class="figure-img img-fluid rounded" style="max-width: {{ $imageWidth }}px" src="{{ $image.RelPermalink }}" width="{{ $imageWidth }}" height="{{ div $image.Height $scaleFactor | math.Round }}">
+	<figcaption class="figure-caption">
+		{{ with .Inner }}
+			{{ . }}
+		{{ end }}
+	</figcaption>
+</figure>  

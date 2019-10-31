@@ -1,5 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
+slug: 'replace-me'
 date: {{ .Date }}
 draft: true
 ---

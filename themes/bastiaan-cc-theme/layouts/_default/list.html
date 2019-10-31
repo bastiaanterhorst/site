@@ -1,0 +1,7 @@
+{{ block "meta_tags" . }}
+{{ if in (.Site.BaseURL | string) "localhost" }}
+    
+{{ else}}
+    <meta http-equiv="refresh" content="0;url=/" />
+{{ end}}
+{{end}}

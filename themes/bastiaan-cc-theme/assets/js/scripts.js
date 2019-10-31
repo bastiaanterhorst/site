@@ -11,6 +11,18 @@ body.onscroll = function(e) {
     
 }
 
+window.onload = function() {
+    window.setTimeout(function() {
+        body.className = "enable-transitions " + body.className;
+    }, 1000)
+}
+
+
+document.addEventListener('DOMContentLoaded', function(){ 
+    
+}, false);
+
+
 // var body = document.querySelector('body')
 // var menuTrigger = document.querySelector('#toggle-main-menu-mobile');
 // var menuContainer = document.querySelector('#main-menu-mobile');

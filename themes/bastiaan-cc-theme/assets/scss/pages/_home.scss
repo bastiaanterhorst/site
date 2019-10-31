@@ -1,27 +1,17 @@
-.page-home .main-col {
-  padding-top: 30px;
-}
+.lab-list {
 
-@include media-breakpoint-up(sm) {
-  .page-home .main-col {
-    padding-top: 60px;
+  & p {
+    margin-top: 8rem;
+    margin-bottom: 0;
+    font-weight: 800;
   }
-}
 
-// on the homepage, and on larger screens, scale up the sidebar
+  & ul {
+    padding: 0;
 
-@include media-breakpoint-up(md) {
-  .page-home .side-col {
-    flex: 0 0 20%;
-    max-width: 20%;
-    max-width: 300px;
-  }
-}
+    & li {
+      list-style-type: none;
+    }
 
-@include media-breakpoint-up(lg) {
-  .page-home .side-col {
-    flex: 0 0 33.33333333%;
-    max-width: 33.33333333%;
-    max-width: 300px;
   }
 }
