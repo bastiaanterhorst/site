@@ -14,7 +14,7 @@ body.onscroll = function(e) {
 window.onload = function() {
     window.setTimeout(function() {
         body.className = "enable-transitions " + body.className;
-    }, 1000)
+    }, 200)
 }
 
 
