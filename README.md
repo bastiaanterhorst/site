@@ -3,14 +3,15 @@
 1. Install Hugo: ```brew install hugo```
 2. Run in dev mode: ```hugo server```
 
+# Deploying
 
+1. run  ```hugo```
+2. then run ```hugo deploy```
 
-TODO
-- list articles on the homepage
-- trickery with color fading on scroll
+This requires the AWS CLI to be set up and configured. Run ```aws configure``` to do so.
+
+# TODO
 - auto deploy with a github workflow: https://github.com/nathany/hugo-deploy
-- 404
-- sitemap, robots
 
 Dit in head ergens:
 {{ define "meta_tags" }}

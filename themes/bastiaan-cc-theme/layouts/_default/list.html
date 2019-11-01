@@ -1,7 +1,5 @@
-{{ block "meta_tags" . }}
-{{ if in (.Site.BaseURL | string) "localhost" }}
-    
-{{ else}}
-    <meta http-equiv="refresh" content="0;url=/" />
-{{ end}}
-{{end}}
+{{ define "footer_js" }}
+<script type="text/javascript">
+    document.location = "/";
+</script>
+{{ end }}
