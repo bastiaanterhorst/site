@@ -1,17 +1,46 @@
-.lab-list {
+@include media-breakpoint-up(md) {
+  .main-col > p {
+    margin-top: -1rem;
+  }
+}
+
+div.notes-list {
 
   & p {
-    margin-top: 8rem;
+    margin-top: 2rem;
     margin-bottom: 0;
     font-weight: 800;
   }
 
   & ul {
     padding: 0;
+    line-height: 1.75;
 
     & li {
       list-style-type: none;
+
+      & .date {
+        color: transparentize($black, 0.75);
+        font-size: 0.5rem;
+        visibility: hidden;
+      }
+
+      &:hover .date {
+        // visibility: visible;
+      }
     }
 
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  div.notes-list p {
+    margin-top: 4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  div.notes-list p {
+    margin-top: 6rem;
   }
 }

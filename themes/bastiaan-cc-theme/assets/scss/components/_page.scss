@@ -15,6 +15,16 @@ p {
   font-size: 1.1em;
 }
 
+h2 {
+  margin-bottom: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  h2 {
+    margin-bottom: 2rem;
+  }
+}
+
 @include media-breakpoint-up(sm) {
   p {
     margin-bottom: 2rem;

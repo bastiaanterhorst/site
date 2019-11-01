@@ -7,11 +7,11 @@ date: 2019-10-13
 
 From a background in product design, product management and software engineering to being a founder and leader of teams, my professional experience spans the full breadth of making digital products. 
 
+In 2015 I joined [WeTransfer](https://wetransfer.com) (and I'm still there!) as VP Engineering. I led a small team of engineers through the delicious chaos of scaling a start-up, ending up as CTO in the process. I then intiated and led the introduction of Product Management, taking on the CPTO role. After almost 2 years as CPTO and with product management an established part of the company, I reverted back to my CTO role in August 2019 to focus engineering. 
+
 {{< wide-image aws-summit-1 >}}
     Speaking at the 2018 AWS Benelux Summit Keynote
 {{< /wide-image>}}
-
-In 2015 I joined [WeTransfer](https://wetransfer.com) (and I'm still there!) as VP Engineering. I led a small team of engineers through the delicious chaos of scaling a start-up, ending up as CTO in the process. I then intiated and led the introduction of Product Management, taking on the CPTO role. After almost 2 years as CPTO and with product management an established part of the company, I reverted back to my CTO role in August 2019 to focus engineering. 
 
 During my time at WeTransfer I have helped shift the product strategy from being focused on file transfer to _being behind every great idea_. We are building the best set of productivity tools for creatives, enabling them to get their ideas out. In support of that strategy we acquired [Paper](http://paper.bywetransfer.com) and [Paste](https://paste.bywetransfer.com/) from FiftyThree in 2018 and [raised a Series B round](https://techcrunch.com/2019/08/19/wetransfer-cash/) in 2019. If this sounds interesting, we are also [hiring](https://wetransfer.homerun.co) ;)
 

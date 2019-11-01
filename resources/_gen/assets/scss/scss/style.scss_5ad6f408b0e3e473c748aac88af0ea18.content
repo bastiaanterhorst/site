@@ -3819,6 +3819,13 @@ p {
   line-height: 1.75;
   font-size: 1.1em; }
 
+h2 {
+  margin-bottom: 1rem; }
+
+@media (min-width: 576px) {
+  h2 {
+    margin-bottom: 2rem; } }
+
 @media (min-width: 576px) {
   p {
     margin-bottom: 2rem; } }
@@ -3829,15 +3836,32 @@ a {
     border-color: #0189B1;
     color: #0189B1; }
 
-.lab-list p {
-  margin-top: 8rem;
+@media (min-width: 768px) {
+  .main-col > p {
+    margin-top: -1rem; } }
+
+div.notes-list p {
+  margin-top: 2rem;
   margin-bottom: 0;
   font-weight: 800; }
 
-.lab-list ul {
-  padding: 0; }
-  .lab-list ul li {
+div.notes-list ul {
+  padding: 0;
+  line-height: 1.75; }
+  div.notes-list ul li {
     list-style-type: none; }
+    div.notes-list ul li .date {
+      color: rgba(33, 37, 41, 0.25);
+      font-size: 0.5rem;
+      visibility: hidden; }
+
+@media (min-width: 576px) {
+  div.notes-list p {
+    margin-top: 4rem; } }
+
+@media (min-width: 992px) {
+  div.notes-list p {
+    margin-top: 6rem; } }
 
 .title {
   margin-bottom: 2rem; }
