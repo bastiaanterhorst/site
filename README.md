@@ -5,10 +5,12 @@
 
 # Deploying
 
+This requires the AWS CLI to be set up and configured. Run ```aws configure``` to do so.
+
 1. run  ```hugo```
 2. then run ```hugo deploy```
 
-This requires the AWS CLI to be set up and configured. Run ```aws configure``` to do so.
+
 
 # TODO
 - auto deploy with a github workflow: https://github.com/nathany/hugo-deploy
