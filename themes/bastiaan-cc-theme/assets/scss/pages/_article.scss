@@ -32,7 +32,7 @@
 }
 
 .figure {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .figure img.figure-img {
@@ -42,7 +42,17 @@
 }
 
 .figure .figure-caption {
-    font-size: 0.75rem;
+    font-size: 0.75em;
     margin-top: 0.25rem;
     color: transparentize($black, 0.5);
+}
+
+@include media-breakpoint-up(sm) {
+    .figure {
+        margin-bottom: 2rem;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+
 }
