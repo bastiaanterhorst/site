@@ -60,7 +60,7 @@ body {
 }
 
 // animate background transitions
-body.enable-transitions .side-col {
+body.enable-transitions .side-col, body.enable-transitions {
   transition-duration: 1s;
   transition-property: background-color, filter, opacity;
   transition-timing-function: cubic-bezier(0.445, 0.05, 0.55, 0.95);
