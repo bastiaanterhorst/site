@@ -33,6 +33,16 @@
 
 // Type overrides
 
+h1.page-title {
+  margin-bottom: 0;
+}
+
+p.page-subtitle {
+  color: transparentize($black, 0.5);
+  font-size: 0.75em;
+}
+
+
 p {
   margin-bottom: 1rem;
   line-height: 1.75;
@@ -66,12 +76,18 @@ a {
 
 blockquote {
   border-left: 1px solid $black;
-  padding-left: 30px;
+  padding-left: 15px;
   font-style: italic;
   color: transparentize($black, 0.5);
 
   & a {
     color: transparentize($black, 0.5);
     border-color: transparentize($black, 0.5);
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  blockquote {
+    padding-left: 30px;
   }
 }
