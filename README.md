@@ -1,19 +1,16 @@
 # Getting this up and running
 
 1. Install Hugo: ```brew install hugo```
-2. Run in dev mode: ```hugo server```
+2. Run in dev mode: ```./run-server.sh```
 
 # Deploying
 
 This requires the AWS CLI to be set up and configured. Run ```aws configure``` to do so.
 
-1. run  ```hugo```
-2. then run ```hugo deploy```
+1. run  ```./run-deploy.sh```
 
 
 # TODO
-- auto deploy with a github workflow: https://github.com/nathany/hugo-deploy
-
 
 - publish to gh pages
     - https://help.github.com/en/articles/using-a-custom-domain-with-github-pages
