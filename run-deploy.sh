@@ -1,4 +1,4 @@
 #!/bin/bash
 
 hugo --minify
-hugo deploy
+hugo deploy --maxDeletes -1
