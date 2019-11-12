@@ -13,7 +13,7 @@
         <ul>
           {{ range .Pages }}
             <li>
-              <a href="{{.Permalink}}">{{.Title}}</a> <span class="date">{{.Date.Format "2006-01-02"}}</span>
+              <a href="{{.Permalink}}">{{ if eq (.Draft) true }}Draft - {{end}}{{.Title}}</a> <span class="date">{{.Date.Format "2/1 '06"}}</span>
             </li>
           {{end}}
         </ul>
