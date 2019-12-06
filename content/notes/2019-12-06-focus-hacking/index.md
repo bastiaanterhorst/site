@@ -2,29 +2,31 @@
 title: 'One thing at a time: Focus hacking'
 slug: 'one-thing-at-a-time'
 date: 2019-12-06T19:27:37+10:00
-draft: true
+draft: false
 ---
 
-Multitasking [lowers your intelligence by more than 10%](https://www.sciencedirect.com/science/article/pii/S0360131512002254). It also results in [more mistakes](https://www.sciencedirect.com/science/article/pii/S074756320500107X), more annoyance and more anxiety. And perhaps most interesting: a person multitasking lowers not only their own intelligence, but also the intelligence of those around them.
+Multitasking [lowers your intelligence by more than 10%](https://www.sciencedirect.com/science/article/pii/S0360131512002254). It also [results](https://www.sciencedirect.com/science/article/pii/S074756320500107X) in more mistakes, more annoyance and more anxiety. And perhaps most interesting: a person multitasking lowers not only their own intelligence, but also the intelligence of those around them.
 
 Multitasking, it seems, is a really bad idea.
 
 I experience this myself as well. When I want to get focused work done -- such as writing this -- I need to put myself in a small closed off room. I need to remove myself from people running around or talking, with no-one around to interrupt me, my phone on _do not disturb_ (which, to be honest, it is on 99% of the time), and only _one_ application running on my computer. I need to be fully present and focused on one task.
 
-The importance of focus was hammered into my working routine in my first year of art school. During our animation classes we worked through the brilliant [Animator's Survival Kit](https://www.amazon.com/Animators-Survival-Kit-Richard-Williams/dp/0571202284). In our very first class, our teacher made it very clear to take the opening the book by heart: an anecdote of a young Richard Williams asking the legendary Disney animator [Milt Kahl](https://youtu.be/SSTw1S_rxGM?t=442) about listening to music while working:
+The importance of focus was hammered into my working routine in my first year of art school. During our animation classes we worked through the brilliant [Animator's Survival Kit](https://www.amazon.com/Animators-Survival-Kit-Richard-Williams/dp/0571202284). In our very first class, our teacher made it very clear to take the opening the book by heart: an anecdote of a young Richard Williams asking the legendary Disney animator [Milt Kahl](https://youtu.be/SSTw1S_rxGM?t=442) about listening to music while working.
 
 {{% wide-original-image milt %}}
 {{% /wide-original-image %}}
 
-As ~~creatives~~ humans, we need to protect our attention. It is the most precious resource we have. The worst thing you can do to your attention is water it down: to be distracted by a text message when you wanted to do deep work. Afterwards, the frustration of being distracted carries forward, leading you to be thinking of that that deep work you had wanted to get done when you're socialising, later in the day. This toxic feedback loop is preventing you from being fully focused and present in the moment -- two of the most rewarding things you can pursue in my opinion.
+As ~~creatives~~ humans, we need to protect our attention. It is the most precious resource we have. The worst thing you can do to your attention is water it down: to be distracted by a text message when you wanted to do deep work. Afterwards, the frustration of being distracted carries forward, leading you to be thinking of that that deep work you had wanted to get done when you're socialising, later in the day. This toxic feedback loop is preventing you from being fully focused and present in the moment -- two of the most rewarding things you can pursue.
 
 I do not want to pretend I am some laser-focused attention guru. I often get distracted. I mess up my priorities. But I also have been trying to improve my attention consciously for a few years. For me, two things have helped me a lot: a weekly routine, and a ruthless approach to communication channels.
 
 ## Create a routine
 
-What has helped me the most to guard my focus is to set a weekly routine that has all of the things that are essential to me built-in. Such as time for deep work, but also time to 'burn' with wandering around, ad-hoc meetings and impromptu chats. Time for climbing. Time with my partner. Time for doing nothing. The stress that originates from feeling you don't have time to do what you want to do is detrimental to focus (and happiness). To do this properly, start with thinking about what you truly value in life and don't make the mistake of limiting yourself just to work. Make sure you allocate time to all of these things. It may mean that you need to work less to make this happen -- it did in my case and I cut down my hours to working 4 days instead of 5. And yes, this is entirely possible in leadership positions.
+What has helped me the most to guard my focus is to set a weekly routine that has all of the things that are essential to me built-in. Such as time for deep work, but also time to 'burn' with wandering around, ad-hoc meetings and impromptu chats. Time for climbing. Time with my partner. Time for doing nothing. The stress that originates from feeling you don't have time to do what you want to do is detrimental to focus (and happiness). To do this properly, start with thinking about what you truly value in life and don't make the mistake of limiting yourself just to work. Make sure you allocate time to all of these things. It may mean that you need to work less to make this happen -- it did in my case and I cut down my hours to working 4 days instead of 5. And yes, I believe this is entirely possible in leadership positions.
 
-[ my schedule ]
+{{% wide-image schedule %}}
+My current routine.
+{{% /wide-image %}}
 
 Having a routine may feel limiting, but to me it is actually freeing, since I know I will have time to do all the things that are important to me. When when I need to, I can make a concious decision to deviate from the routine: it is not a prison but a foundation.
 
