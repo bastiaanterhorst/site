@@ -51,11 +51,13 @@ p {
 
 h2 {
   margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 
 @include media-breakpoint-up(sm) {
   h2 {
     margin-bottom: 2rem;
+    margin-top: 4rem;
   }
 }
 

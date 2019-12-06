@@ -1,0 +1,11 @@
+{{ $original := .Page.Resources.GetMatch (printf "*%s*" (.Get 0)) }}
+{{ $imageWidth := 800 }}
+
+<figure class="figure">
+	<img class="figure-img img-fluid rounded" src="{{ $original.RelPermalink }}" width="{{ $imageWidth }}">
+	<figcaption class="figure-caption">
+		{{ with .Inner }}
+		{{ . }}
+		{{ end }}
+	</figcaption>
+</figure>
