@@ -20,7 +20,7 @@ As ~~creatives~~ humans, we need to protect our attention. It is the most precio
 
 I do not want to pretend I am some laser-focused attention guru. I often get distracted. I mess up my priorities. But I also have been trying to improve my attention consciously for a few years. For me, two things have helped me a lot: a weekly routine, and a ruthless approach to communication channels.
 
-## Create a routine
+## 1. Create a routine
 
 What has helped me the most to guard my focus is to set a weekly routine that has all of the things that are essential to me built-in. Such as time for deep work, but also time to 'burn' with wandering around, ad-hoc meetings and impromptu chats. Time for climbing. Time with my partner. Time for doing nothing. The stress that originates from feeling you don't have time to do what you want to do is detrimental to focus (and happiness). To do this properly, start with thinking about what you truly value in life and don't make the mistake of limiting yourself just to work. Make sure you allocate time to all of these things. In my case I found that I needed to work less to make this happen and I switched to working 4 days instead of 5. In most situations, I believe this is [entirely possible](https://en.wikipedia.org/wiki/Parkinson%27s_law) (also in leadership positions).
 
@@ -28,13 +28,13 @@ What has helped me the most to guard my focus is to set a weekly routine that ha
 My current routine.
 {{% /wide-image %}}
 
-Having a routine may feel limiting, but to me it is actually freeing, since I know I will have time to do all the things that are important to me. When when I need to, I can make a concious decision to deviate from the routine: it is not a prison but a foundation.
+Having a routine may feel limiting, but to me it is actually freeing, since I know I will have time to do all the things that are important to me. When I need to, I can make a concious decision to deviate from the routine: it is not a prison but a foundation.
 
 I make an effort for all my mornings to follow a [maker schedule](http://www.paulgraham.com/makersschedule.html). I block a good chunk of time and try to prevent my calendar from looking like Emmentaler cheese. Afternoons I keep open for meetings. When I'm in the office my first priority is supporting my people, and on those days meetings do tend to creep into my maker time. That is fine. My strategy is to vigilantly guard my work-from-home time, and accept occasional interruptions on other days. 
 
 Monday morning I start the week by setting my goals and planning them out. Like Covey [says](https://en.wikipedia.org/wiki/The_7_Habits_of_Highly_Effective_People), "schedule your priorities, don't prioritise your schedule".
 
-## Ruthlessly cut down on communication channels
+## 2. Ruthlessly cut down on communication channels
 
 The second thing that has helped me a lot is to _ruthlessly_ cut down on communication channels. To some it might seem like a great idea to have an incoming email sound a chime, or to feel a buzz on your wrist when you get a text message, but the only thing these notifications do is drag you out of your focus. And 99% of the time, for nothing. These messages can wait. We humans are so easy to distract, and we have the entire tech industry working tirelessly to keep us distracted. The only thing we can do is remove the tease. Get rid of the distractions. Because resisting the urge to respond is _too hard and unrealistic_.
 
