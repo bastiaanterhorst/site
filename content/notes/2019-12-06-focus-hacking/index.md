@@ -5,7 +5,7 @@ date: 2019-12-06T19:27:37+10:00
 draft: false
 ---
 
-Multitasking [lowers your intelligence by more than 10%](https://www.sciencedirect.com/science/article/pii/S0360131512002254). It also [results](https://www.sciencedirect.com/science/article/pii/S074756320500107X) in more mistakes, more annoyance and more anxiety. And perhaps most interesting: a person multitasking lowers not only their own intelligence, but also the intelligence of those around them.
+Multitasking temporarily [lowers your intelligence by more than 10%](https://www.sciencedirect.com/science/article/pii/S0360131512002254). It also [results](https://www.sciencedirect.com/science/article/pii/S074756320500107X) in more mistakes, more annoyance and more anxiety. And perhaps most interesting: a person multitasking lowers not only their own intelligence, but also the intelligence of those around them.
 
 Multitasking, it seems, is a really bad idea.
 
