@@ -79,7 +79,7 @@ When we had a first feature-complete draft we decided to expand beyond our initi
 **3. Alignment & approval**<br>
 We shared our first draft of the framework with a broader set of engineers, our HR team, and our Works Council. We then worked to tweak the framework based on their feedback. Sharing our draft early helped us figure out where the holes were in our framework, and where some of the sensitivities lie with introducing a framework like this.
 
-The next step was an RFC towards the entire engineering organisation. We've worked hard to build an RFC-culture where all important changes are proposed as request-for-comments. All engineers had 2 weeks to provide their feedback to the framework, and the proposed method of implementation. We again took that feedback to improve the framework. The added benefit of sharing this freely and upfront was that engineers had some time to get comfortable with the levelling process that was coming.
+The next step was an RFC towards the entire engineering organisation. We've worked hard to build an [RFC-culture]({{< ref "2020-07-15-career-framework" >}}) where all important changes are proposed as request-for-comments. All engineers had 2 weeks to provide their feedback to the framework, and the proposed method of implementation. We again took that feedback to improve the framework. The added benefit of sharing this freely and upfront was that engineers had some time to get comfortable with the levelling process that was coming.
 
 The final step was to get formal approval from the Works Council. The majority of our engineers is based in The Netherlands, and important changes impacting these employees must legally be approved by the Works Council first. 
 
