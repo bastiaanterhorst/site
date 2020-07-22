@@ -26,7 +26,7 @@ If you have feedback or questions about the framework, please reach out via the 
 The process of implementing a career framework in an existing organisation is a hairy one. We are talking about something extremely sensitive: people's competencies and how those translate to a (possibly externally visible) seniority level. Furthermore, applying such a framework impacts every single engineer in the organisation. We needed to make sure we approached the initiative with the proper care and respect for everyone involved.
 
 **1. Getting started**<br>
-The first step was to form a team that could represent both our existing engineering organisation but also take a step back and formulate the bar we want to aspire to. In our case, the team was 4 people: one individual contributor, two managers and myself. Two people with long tenure in the company, and two more recent joiner. Everyone in the group had been working in engineering for over 5 years. 
+The first step was to form a team that could represent both our existing engineering organisation but also take a step back and formulate the bar we want to aspire to. In our case, the team was 4 people: one individual contributor, two managers and myself. Two people with long tenure in the company, and two more recent joiners. Everyone in the group had been working in engineering for over 5 years. 
 
 Luckily, there was no need to start completely from scratch. There is a wealth of information available on career frameworks that we could readily draw from. These were the resources we found most valuable:
 
@@ -97,6 +97,6 @@ Inevitably an initial levelling will reveal some discrepancies in salary within 
 ## Living the framework
 After the initial levelling managers communicated all levels to their reports. At this moment we do not internally disclose the levels everyone is on, as we felt that would be too much change in one go. 
 
-As these things go, the work of creating a career framework  inspired a few follow up initiatives that are either planned or already underway: embedding the career framework in how we do performance management, and having the framework inform our recruitment proces are the two most important ones.
+As these things go, the work of creating a career framework  inspired a few follow up initiatives that are either planned or already underway: embedding the career framework in how we do performance management, and having the framework inform our recruitment process are the two most important ones.
 
 Soon after finishing the framework we decided this work needed to become public. We were able to produce our framework in a relatively short time because of the material that was available online, and we felt it our duty to give back what we had learned as well. We hope that publishing our process and final framework will inspire others to create frameworks of their own, and follow through when the going gets tough.
