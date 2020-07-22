@@ -54,6 +54,18 @@ h2 {
   margin-top: 2rem;
 }
 
+p + ul {
+  margin-top: -1rem !important;
+}
+
+ul {
+  margin-bottom: 1rem;
+}
+
+ul li {
+  line-height: 1.75;
+}
+
 @include media-breakpoint-up(sm) {
   h2 {
     margin-bottom: 2rem;
@@ -62,9 +74,14 @@ h2 {
 }
 
 @include media-breakpoint-up(sm) {
-  p {
+  p, ul {
     margin-bottom: 2rem;
   }
+
+  p + ul {
+    margin-top: -2rem !important;
+  }
+
 }
 
 a {
