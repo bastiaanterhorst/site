@@ -6,7 +6,7 @@
 
 <p class="back"><a href="/">Go back</a></p>
 
-<div class="content">
+<div class="{{ cond (eq .Section "notes") "content" "" }}">
   {{ if eq (.Section) "notes" }}
   <h1 class="page-title">{{.Title}}</h1>
   <p class="page-subtitle">Bastiaan Terhorst, {{.Date.Format "2/1 '06"}}</p>
