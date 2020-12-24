@@ -3,11 +3,11 @@ title: About
 date: 2019-10-13
 ---
 
-## **Hi, I'm Bastiaan.** I'm into baking, climbing, and helping teams build beautiful software with passion and compassion -- currently as CTO at [WeTransfer](https://wetransfer.com). 
+## **Hi, I'm Bastiaan.** I'm into baking, climbing, and helping teams build beautiful software with passion and compassion -- currently as VP Engineering at [WeTransfer](https://wetransfer.com). 
 
 From a background in product design, product management and software engineering to being a founder and leader of teams, my professional experience spans the full breadth of making digital products. 
 
-In 2015 I joined [WeTransfer](https://wetransfer.com) (and I'm still there!) as VP Engineering. I led a small team of engineers through the delicious chaos of scaling a start-up, ending up as CTO in the process. I then intiated and led the introduction of Product Management, taking on the CPTO role. After almost 2 years as CPTO and with product management an established part of the company, I reverted back to my CTO role in August 2019 to focus engineering. 
+In 2015 I joined [WeTransfer](https://wetransfer.com) (and I'm still there!) to lead engineering. I helped a small team of engineers through the delicious chaos of scaling a start-up, growing the team from 7 to 70 in the process. I then initiated and led the introduction of Product Management. After almost 2 years leading product and engineering, and with product management an established part of the company, I reverted back to my passion of leading engineering teams in August 2019. 
 
 {{< wide-image aws-summit-1 >}}
     Speaking at the 2018 AWS Benelux Summit Keynote
